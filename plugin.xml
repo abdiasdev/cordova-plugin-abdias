@@ -36,7 +36,7 @@
 
         <!-- To ensure we're using the latest version, see here:
         https://developer.android.com/google/play/billing/billing_library_releases_notes -->
-        <framework src="com.android.billingclient:billing:4.0.0" />
+        <framework src="com.android.billingclient:billing:3.0.3" />
     </platform>
 
     <!-- ios -->
