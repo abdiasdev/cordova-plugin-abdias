@@ -31,6 +31,16 @@
     "cordova-osx",
     "cordova-windows"
   ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=4.0.0"
+    }
+  ],
   "author": {
     "name": "Abdias N Vrech"
   },
