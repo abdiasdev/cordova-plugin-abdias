@@ -31,20 +31,15 @@
     "cordova-osx",
     "cordova-windows"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=6.0.0"
-    },
-    {
-      "name": "cordova-android",
-      "version": ">=4.0.0"
-    }
-  ],
-  "author": "Abdias N Vrech",
-  "license": "MIT",
+  "author": {
+    "name": "Abdias N Vrech"
+  },
   "bugs": {
     "url": "https://github.com/abdiasdev/cordova-plugin-abdias/issues"
   },
-  "homepage": "https://github.com/abdiasdev/cordova-plugin-abdias#readme"
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "homepage": "https://github.com/abdiasdev/cordova-plugin-abdias#readme",
+  "license": "MIT"
 }
