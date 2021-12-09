@@ -8,7 +8,7 @@
 	<description>Plugin to add implementations in android build.gradle</description>
     <author>Abdias N Vrech</author>
 
-    <js-module name="Abdias" src="www/Plugin.js">
+    <js-module name="Abdias" src="www/Abdias.js">
         <clobbers target="cordova.plugins.Abdias" />
     </js-module>
 
@@ -32,7 +32,7 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/Plugin.java" target-dir="src/com/vrech/plugins/Abdias" />
+        <source-file src="src/android/Abdias.java" target-dir="src/com/vrech/plugins/Abdias" />
 
         <!-- To ensure we're using the latest version, see here:
         https://developer.android.com/google/play/billing/billing_library_releases_notes -->
