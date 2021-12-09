@@ -1,9 +1,9 @@
 {
   "name": "abdias",
   "version": "1.0.0",
-  "description": "Custom Cordoba Plugin",
+  "description": "Plugin to add implementations in android build.gradle",
   "cordova": {
-    "id": "abdias",
+    "id": "cordova-plugin-abdias",
     "platforms": [
       "android",
       "ios",

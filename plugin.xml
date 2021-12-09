@@ -23,15 +23,15 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="abdias"
+    id="cordova-plugin-abdias"
     xmlns:android="http://schemas.android.com/apk/res/android"
     version="1.0.0">
 
   <name>Abdias</name>
-	<description>Custom Cordoba Plugin</description>
+	<description>Plugin to add implementations in android build.gradle</description>
   <author>Abdias N Vrech</author>
 
-  <js-module name="Abdias" src="www/Abdias.js">
+  <js-module name="Abdias" src="www/Plugin.js">
     <clobbers target="cordova.plugins.Abdias" />
   </js-module>
 
@@ -55,17 +55,7 @@ SOFTWARE.
             </feature>
         </config-file>
 
-        <source-file src="src/android/Abdias.java" target-dir="src/com/vrech/plugins/Abdias" />
-
-        <!-- Cordova >= 3.0.0 -->
-        <!-- <config-file target="res/xml/config.xml" parent="/*">
-        <feature name="InAppBillingPlugin">
-            <param
-            name="android-package"
-            value="cc.fovea.PurchasePlugin"
-            />
-        </feature>
-        </config-file> -->
+        <source-file src="src/android/Plugin.java" target-dir="src/com/vrech/plugins/Abdias" />
 
         <!-- To ensure we're using the latest version, see here:
         https://developer.android.com/google/play/billing/billing_library_releases_notes -->
