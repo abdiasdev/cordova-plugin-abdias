@@ -1,0 +1,50 @@
+{
+  "name": "abdias",
+  "version": "1.0.0",
+  "description": "Custom Cordoba Plugin",
+  "cordova": {
+    "id": "abdias",
+    "platforms": [
+      "android",
+      "ios",
+      "osx",
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdiasdev/cordova-plugin-abdias.git"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "purchase",
+    "purchases",
+    "storekit",
+    "billing",
+    "ios",
+    "android",
+    "play",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-windows"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=4.0.0"
+    }
+  ],
+  "author": "Abdias N Vrech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdiasdev/cordova-plugin-abdias/issues"
+  },
+  "homepage": "https://github.com/abdiasdev/cordova-plugin-abdias#readme"
+}
